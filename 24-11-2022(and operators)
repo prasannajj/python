@@ -1,0 +1,29 @@
+sno=int(input("student number: "))
+name=input("student name: ")
+group=input("group: ")
+sub1=int(input('subject 1: '))
+sub2=int(input('subject 2: '))
+sub3=int(input('subject 3: '))
+if sub1>=35 and sub2>=35 and sub3>=35:
+    print("PASS")
+else:
+    print("FAIL")
+    
+OUTPUT 1 :
+
+student number: 34
+student name: surya
+group: mpcs
+subject 1: 89
+subject 2: 90
+subject 3: 95
+PASS
+
+OUTPUT2 :
+student number: 58
+student name: Naveen
+group: Bca
+subject 1: 76
+subject 2: 59
+subject 3: 29
+FAIL
