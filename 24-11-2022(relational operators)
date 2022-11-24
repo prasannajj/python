@@ -1,0 +1,28 @@
+a=int(input("a value: "))
+b=int(input("b value: "))
+print(a>b)
+print(a<b)
+print(a>=b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+
+OUTPUT 1:
+a value: 56
+b value: 45
+True
+False
+True
+False
+False
+True
+
+OUTPUT 2:
+a value: 12
+b value: 43
+False
+True
+False
+True
+False
+True
