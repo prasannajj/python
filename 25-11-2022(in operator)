@@ -1,0 +1,15 @@
+list=[1,4,9,7,6]
+i=int(input("Number: "))
+if i in list:
+    print("available")
+else:
+    print("not available")
+
+OUTPUT 1:
+
+  Number: 4
+available
+
+OUTPUT 2:
+   Number: 3
+not available
