@@ -1,0 +1,28 @@
+a=int(input('a value: '))
+i=2
+for i in range(2,11):
+  print(a>>i)
+
+OUTPUT 1:
+  a value: 456
+114
+57
+28
+14
+7
+3
+1
+0
+0
+
+OUTPUT 2:
+   a value: 985
+246
+123
+61
+30
+15
+7
+3
+1
+0
