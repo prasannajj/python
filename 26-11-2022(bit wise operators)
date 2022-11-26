@@ -1,0 +1,18 @@
+a=int(input('a value: '))
+b=int(input("b value: "))
+print(a&b)
+print(a|b)
+print(a^b)
+
+OUTPUT 1:
+    a value: 12
+b value: 15
+12
+15
+3
+OUTPUT 2:
+  a value: 5
+b value: 8
+0
+13
+13
