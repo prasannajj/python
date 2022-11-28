@@ -1,0 +1,26 @@
+bal= 100000
+amount=int(input("enter amount:"))
+pin=int(input("enter pin")) 
+if amount>bal  :
+    print("In sufficient balance!!")
+    print("try again!!!")
+elif pin==9876  :    
+    print("transaction completed")
+    print("debited amount:",amount)
+    print("remaining balance:",bal-amount)
+else :
+    print("pin is wrong!!!")
+    print("try again!!!")
+
+OUTPUT 1:
+enter amount:37586
+enter pin9876
+transaction completed
+debited amount: 37586
+remaining balance: 62414
+
+OUTPUT 2:
+enter amount:87645
+enter pin8769
+pin is wrong!!!
+try again!!!
