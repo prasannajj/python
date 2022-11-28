@@ -1,0 +1,14 @@
+bal= 100000
+amount=int(input('enter amount:' ))
+print("credit successfully")
+print("Last balance:",bal)
+print("credited money: ",amount)
+print("total balance:",bal+amount)
+
+OUTPUT:
+
+enter amount:54655
+credit successfully
+Last balance: 100000
+credited money:  54655
+total balance: 154655
