@@ -1,0 +1,26 @@
+a=int(input('a='))
+b=int(input('b='))
+c=int(input('c='))
+d=int(input('d='))
+if a>b:
+    if a>c:
+        if a<d:
+            print('a is big')
+if b>a:
+    if b>c:
+        if b>d:
+            print('b is big')
+if c>a:
+    if c>b:
+        if c>d:
+            print('c is big')
+if d>a:
+    if d>b:
+        if d>c:
+            print('d is big')
+OUTPUT:
+a=16
+b=54
+c=23
+d=98
+d is big
