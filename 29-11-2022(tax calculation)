@@ -1,0 +1,32 @@
+empo=input('empo=')
+empname=input('empname=')
+empdesign=input('emdesign=')
+basicsalary=int(input('basicsalary='))
+da=int(input('da='))
+ta=int(input('ta='))
+hra=int(input('hra'))
+
+netsalary=basicsalary+da+ta+hra
+if netsalary==basicsalary>100000:
+   tax=netsalary*10/100
+if netsalary>50000:
+    tax=netsalary*7/100
+if netsalary>40000:
+   tax=netsalary*4/100
+if netsalary<20000:
+   tax=0
+   print(empo)
+   print(empname)
+   print(empdesign)
+   print(basicsalary)
+print("the total tax:",tax)
+
+OUTPUT :
+empo=***
+empname=prasanna
+emdesign=457
+basicsalary=60000
+da=5000
+ta=5436
+hra8765
+the total tax: 3168.04
