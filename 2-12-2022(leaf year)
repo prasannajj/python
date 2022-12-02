@@ -1,0 +1,46 @@
+METHOD 1:
+
+def leafyear(year):
+      if year%4==0 and year%100!=0:
+          print("leaf year")
+      elif year%400==0:
+          print("leaf year")
+      else:
+           print("not a leaf year")       
+year=int(input("year:"))
+leafyear(year)
+OUTPUT 1:
+year:2345
+not a leaf year
+
+METHOD 2:
+def leafyear(year):
+      if year%4==0 and year%100!=0:
+         return "leaf year"
+      elif year%400==0:
+          return "leaf year"
+      else:
+           return "not a leaf year"     
+year=int(input("year:"))
+print(leafyear(year))
+OUTPUT 2:
+year:4040
+leaf year
+
+METHOD 3:
+
+def leafyear(year):
+      if year%4==0 and year%100!=0:
+         return "True"
+      elif year%400==0:
+          return "Truer"
+      else:
+           return "False"     
+year=int(input("year:"))
+if leafyear(year):
+  print("leaf year")
+else:
+    print("not a leaf year")
+OUTPUT 3:
+year:4560
+leaf year
