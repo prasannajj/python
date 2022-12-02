@@ -1,0 +1,43 @@
+METHOD 1:
+
+def bigsmall(n, m):
+      if n>m:
+         print("biggest number is:",n)
+      else:
+           print("biggest number is:",m)
+n=int(input("n value:"))
+m=int(input("m value:"))
+bigsmall(n, m)
+
+OUTPUT 1:
+n value:45
+m value:87
+biggest number is: 87
+
+METHOD 2:
+def bigsmall(n, m):
+      if n>m:
+          return "n"
+      else:
+          return "m"
+n=int(input("n value:"))
+m=int(input("m value:"))
+print("biggest number is:",bigsmall(n, m))
+
+OUTPUT 2:
+n value:76
+m value:86
+biggest number is: m
+
+METHOD 3:
+def bigsmall(n, m):
+      if n>m:
+          return "True"
+      else:
+          return "False"
+n=int(input("n value:"))
+m=int(input("m value:"))
+   if(bigsmall(n, m)):
+       print("biggest number is:",n)
+   else:
+       print("biggest number is:",m)
