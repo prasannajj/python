@@ -1,0 +1,19 @@
+n=int(input("number: "))
+a=0
+while(n!=0):
+    r=n%10
+    a=a+(r*r*r)
+    n=n//10
+if a==n:
+    print("The number is Armstrong:",a)
+else:
+    print("The number is not a Armstrong:",a)
+
+OUTPUT 1:
+number: 153
+153
+The number is not a Armstrong: 153
+
+OUTPUT 2:
+number: 123
+The number is not a Armstrong: 123
