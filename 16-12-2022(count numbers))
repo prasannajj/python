@@ -1,0 +1,9 @@
+str1=input("enter a string:")
+count=0
+for i in str1:
+    if (i.isdigit()):
+        count=count+1
+print(count)
+OUTPUT:
+enter a string:35fgnvcg65
+4
