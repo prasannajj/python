@@ -1,0 +1,12 @@
+str1=input("enter a string:")
+n=len(str1)
+count=0
+for i in str1:
+    if (i.isalpha()):
+        count=count+1
+print(count)
+
+
+OUTPUT:
+enter a string:pr@s@nna2
+6
