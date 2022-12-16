@@ -1,0 +1,18 @@
+str=input("enter a string:")
+lenght=len(str)
+print("the no of character are:",lenght)
+str2=input("enter lower case string:")
+print(str2.upper())
+str3=input("enter upper case string:")
+print(str3.lower())
+str4=input("enter a string:")
+print(str4.swapcase())
+OUTPUT:
+enter a string:hello
+the no of character are: 5
+enter lower case string:hai
+HAI
+enter upper case string:WOW
+wow
+enter a string:WElcOme
+weLCoME
