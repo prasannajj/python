@@ -1,0 +1,14 @@
+n=int(input("number:"))
+l=list(map(int,input().split()))
+r=int(input("number of rotations:"))
+a=l[0:r]
+b=l[r:n]
+b.reverse()
+res=b+a
+for i in res:
+    print(i,end="")
+OUTPUT:
+number:5
+4 5 3 2 9
+number of rotations:2
+92345
